@@ -1,0 +1,4 @@
+This is a jquery script that allows you to validate the data entered in a form. 
+The data if not inserted into the whole of the form appears an error message 
+that will allow you to reload the page to recompile with the data.
+All this is done on the user's side
