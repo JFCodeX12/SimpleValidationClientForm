@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title>FormValidate: User</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +11,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
-        
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <!-- My Style-->
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -22,27 +25,45 @@
         <!-- Container for error messages -->
         <div class="error"></div>
         <!-- Form -->
-        <form>
-            <!-- Name -->
+        <form class="p-3 mb-2 bg-light">
+            <!-- Name container -->
             <div class="form-group">
-                <label for="">Your name: </label>
+                <!-- Label text -->
+                <label for="">
+                    <!-- Icon for name -->
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    Your name:
+                </label>
                 <input type="text|password|email|number|submit|date|datetime|datetime-local|month|color|range|search|tel|time|url|week"
                     class="form-control inputName" name="inputName" id="" aria-describedby="helpId" placeholder="Enter your full name...">
             </div>
-            <!-- Email Address-->
+            <!-- Email_Address container-->
             <div class="form-group">
-                <label for="">Your email address: </label>
+                <!-- Label text -->
+                <label for="">
+                    <!-- Icon for email -->
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    Your email address:
+                </label>
                 <input type="email" class="form-control inputEmail" name="inputEmail" id="" aria-describedby="emailHelpId"
                     placeholder="Enter your email address...">
             </div>
-            <!-- Message -->
+            <!-- Message container -->
             <div class="form-group">
-                <label for="">Your message: </label>
+                <!-- Label text -->
+                <label for="">
+                    <!-- Icon for message -->
+                    <i class="fa fa-comment" aria-hidden="true"></i>
+                    Your message:
+                </label>
                 <textarea class="form-control inputMessage" name="inputMessage" id="" rows="3" placeholder="Enter your message...."></textarea>
             </div>
             <!-- Button -->
-            <input name="" id="" class="btn btn-primary|secondary|success|danger|warning|info|light|dark|link" type="submit"
-                value="Submit">
+            <button type="submit" class="btn btn-primary">
+                Submit
+                <!-- Arrow icon -->
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
         </form>
     </section>
 

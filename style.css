@@ -1,3 +1,6 @@
+/**********
+    General
+***********/
 html,
 body {
     height: 100%;
@@ -6,16 +9,47 @@ body {
     padding: 0;
 }
 
+/* Section */
 .formSection {
     max-height: 100%;
     max-width: 100%;
 }
 
+/*  Form */
 form {
     margin: 10% 10% 10% 10%;
     text-align: center;
+    border-radius: 20px;
 }
 
+/* error div */
 .error {
-    margin: 10% 10% 10% 10%;
+    display: none;
+    margin: 20% 20% 20% 20%;
+}
+
+/* container for error button */
+.container_errorButton {
+    width: 100%;
+    text-align: center;
+}
+
+/** button */
+.reload {
+    margin-top: 2%;
+}
+
+/* icon in errorButton */
+.fa-refresh {
+    margin-left: 6%;
+}
+
+/* Class css for show div */
+.show {
+    display: block;
+}
+
+/* Class css for hide div */
+.hidden {
+    display: none;
 }
